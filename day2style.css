@@ -1,0 +1,19 @@
+h1{
+color:red;	
+}
+div{
+background-color:tomato;
+}
+
+tr,th,td{
+	border:1px solid black;
+
+}
+.kana{
+ font-size:30px;
+color:blue;
+}
+#img1{
+higth:500px;
+width:500px;
+}
