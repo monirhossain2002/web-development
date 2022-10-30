@@ -1,0 +1,220 @@
+.header{
+width: 1200px;
+height: 100px;
+background: aqua;
+margin: 0 auto;
+}
+.logo{
+ padding: 20px;
+ float:left;
+}
+.logo img{
+    width: 60%;
+    height: 60%;
+    
+    
+}
+
+.menu{
+float: right;
+padding-top: 20px;
+
+
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 20px;
+}
+.menu ul li a:hover{
+    background-image: linear-gradient( orange,blue);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+/* header part end */
+
+/* slider part start */
+
+.slider{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(232, 126, 126, 0.8),rgba(0,0,0,.6)), url(./image/edu.png);
+    background-repeat: no-repeat;
+    background-size: fit;
+    background-position: center;
+
+}
+.slider h1{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: rgb(51, 10, 187);
+    font-size: 60px;
+}
+.slider p{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    color: white;
+    font-size: 30px;
+}
+.slider a{
+    position: absolute;
+    left: 35%;
+    top: 70%;
+    text-decoration: none;
+    border: 2px solid whitesmoke;
+    padding: 10px 20px;
+    color: red;
+    font-size: 25px;
+    background-color: yellow;
+    border-radius: 20px;
+}
+/* slider part end */
+/* service part start */
+    .service{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .service-title{
+        text-align: center;
+        padding-top: 20px;
+        
+    }
+    span{
+        color: rgb(238, 87, 17);
+    }
+    .card img{
+            width: 80px;
+            height: 80px;
+            border: 2px solid blue;
+            border-radius: 60%;
+    }
+    .card{
+            text-align: center;
+            padding: 20px;
+            background-color: tomato;
+            border-radius: 20px;
+            
+            
+    }
+    .card a{
+        background: rgb(38, 180, 45);
+        border: 2px solid rgb(68, 47, 187);
+        border-radius: 20px;
+        padding: 10px;
+        color: aqua;
+        font-size: 15px;
+        
+
+    
+    }
+    .card a:hover{
+        color: aqua;
+        background: rgb(32, 24, 145);
+    }
+    .service-box{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(280px,auto));
+        gap: 20px;
+        padding-top: 30px;
+    }
+    .service a{
+        text-decoration: none;
+    }
+    .animation{
+       animation: 5s mov linear infinite;
+       position: relativ;
+       
+    }
+    @keyframes mov{
+        /* from{background-color: rgb(158, 42, 7);}
+        to{background-color: rgb(48, 19, 209);} */
+
+
+        /* 0%   {background-color: red;}
+        25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {background-color: green;} */
+
+
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+    }
+    
+   
+  
+/* service part end */
+
+/* footer part start */
+
+footer{
+    width: 1200px;
+    
+    margin: 0 auto;
+}
+.footer-main{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(380px,auto));
+    gap: 10px;
+    
+
+}
+.block img{
+    width: 25px;
+    height: 25px;
+    top: 5%;
+    position: relative;
+    padding-right: 10px;
+   
+}
+.block{
+    padding: 10px;
+    background-color: aqua;
+    display: grid;
+    grid-template-rows: repeat(auto-fit,monmax(20px,auto));
+    text-align: center;
+   
+   
+
+}
+.block a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.block a:hover{
+    color: rgb(166, 202, 37);
+}
+
+.social h3{
+  text-align: center;
+
+}
+/* .social{
+    font-size: 20px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-rows: repeat(auto-fit,minmax(25px,auto));
+}
+.social img{
+    position: relative;
+    top: 25%;
+}
+.social a{
+    position: relative;
+    left: 30%;
+   
+} */
+/* footer part end */

@@ -1,0 +1,80 @@
+/* responsive part start */
+
+@media screen and (max-width:600px){
+    .header{
+        width: 100%;
+        background: yellow;
+        height: 60px;
+
+        
+        }
+        .logo{
+            display: none;
+         padding: 5px;
+        
+        }
+        .logo img{
+            width: 40%;
+            height: 40%;
+            
+            
+        }
+        
+        .menu{
+        float: right;
+        padding-top: 5px;
+        }
+        .menu ul li a{
+            
+            font-size: 13px;
+            padding-right: 10px;
+        }
+        .menu ul li a:hover{
+           
+            padding: 5px;
+           
+        }
+        /* header part end */
+}
+/* slider part start */
+.slider{
+    width: 100%;
+   
+
+}
+.slider h1{
+    
+    top: 25%;
+    
+    color: rgb(113, 15, 15);
+    font-size: 60px;
+}
+.slider p{
+    
+    top: 40%;
+    
+}
+.slider a{
+  
+    top: 65%;
+    
+   
+    
+    
+}
+/* slider part end */
+/* service part start */
+.service{
+    width: 100%;
+   
+}
+.service-title{
+    text-align: center;
+    padding-top: 20px;
+}
+span{
+    color: rgb(238, 87, 17);
+}
+/* service part end */
+
+/* responsive part end */
