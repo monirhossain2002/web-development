@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: url(./image/bg_main.png) center;
+}
+.container{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.right{
+    display: flex;
+    justify-content: end;
+}
+.cont{
+display: inline;
+}
