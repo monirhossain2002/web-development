@@ -1,0 +1,86 @@
+body{
+    background: url(./image/bg_main.png) center;
+}
+.cont{
+    width: 996px;
+    margin: 0 auto;
+}
+.topbar{
+    background-color: blueviolet;
+    color: white;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.topbar_right p{
+display: inline-block;
+border-right: 1px solid white;
+margin-right: 10px;
+padding-right: 10px;
+
+}
+.topbar_right a{
+    text-decoration: none;
+    color: white;
+}
+/* header part end */
+/* logo part start */
+.logo{
+    background: rgb(225, 149, 95);
+    height: 110px;
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search{
+    padding-top: 45px;
+}
+.logo_search input{
+    width: 60%;
+}
+.logo1{
+    border-right: 1px solid seagreen;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.logo_right{
+    padding-top: 35px;
+}
+.logo2 p{
+font-size: 13px;
+}
+/* logo part end */
+/* menu part start */
+.main-menu a{
+    border-right:1px solid rgb(219, 60, 60) ;
+}
+.main-menu a:hover{
+    background: sienna;
+    color: aliceblue;
+}
+/* menu part end */
+/* banner part start */
+.banner img{
+border: 2px solid red;
+padding: 8px;
+}
+/* banner part end */
+/* slider part start */
+.slider{
+    margin: 20px 0 ;
+}
+/* slider part end */
+
+.list h5{
+color: #69306f;
+font-size: 15px;
+}
+.list ul{
+    list-style: none;
+}
+.list ul li a{
+    text-decoration: none;
+    border-bottom: 1px solid green;
+    padding-bottom: 5px ;
+    color: green;
+}
