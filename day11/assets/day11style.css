@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./image/bg_main.png) center;
+}
+.cont{
+    max-width: 1016px;
+    margin: 0 auto;
+    padding:0 10px;
+}
+/*common css end */
+/* header part start */
+.topbar{
+    background-color: #9E5BBA;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    border-bottom: 1px solid rgb(252, 5, 5);
+}
+.top-right p{
+    display: inline-block;
+    border-right: 1px solid whitesmoke;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+.top-right a{
+    color: #fff;
+    text-decoration: none;
+}
+/* header part end*/
+/* logo part start */
+.logo{
+    height: 110px;
+    
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search{
+    padding-top: 50px;
+    
+}
+.logo_search input{
+    width: 65%;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 20px;
+   
+}
+.logo_search button{
+    font-size: 16px;
+    padding: 3px 6px;
+    border: 1px solid silver;
+    border-radius: 20px;
+}
+
+
+.logo1{
+    border-right: 1px solid rgb(237, 214, 214);
+    padding-right: 20px;
+   
+    
+}
+.logo2{
+    padding-left: 20px;
+}
+.logo2 p{
+    font-size: 13px;
+}
+.logo_right{
+    padding-top: 30px;
+}
+
+
+/* logo part end */
+/* menu part start */
+.main-menu a{
+    border-right:1px solid rgb(219, 60, 60) ;
+}
+.main-menu a:visited{
+    text-decoration: none;
+    color: #333;
+}
+/* menu part end */
+
+
+/* hero main part start */
+/* banner part start */
+.banner img{
+    border: 2px solid red;
+    padding: 8px;
+    }
+    /* banner part end */
+    /* slider part start */
+    .slider{
+        margin: 20px 0 ;
+    }
+    /* slider part end */
+    
+    .list h5{
+    color: #69306f;
+    font-size: 15px;
+    }
+    .list ul{
+        list-style: none;
+    }
+    .list ul li a{
+        text-decoration: none;
+        border-bottom: 1px solid green;
+        padding-bottom: 5px ;
+        color: green;
+    }
+    
+    .side_img{
+        word-wrap: ;
+    }
+    /* dfjgdhsd  */
+    .btn a{
+        text-decoration: none;
+    }
+    .btn{
+        background: #ddd;
+    }
+    form select{
+        width: 75%;
+        padding: 5px;
+    }
+    
+    
+    .side_video h5{
+        background: forestgreen;
+        padding: 5px;
+        color: #ddd;
+    }
+    .fb_left ul li a{
+        font-size: 12px;
+    }
+    .fb_left p{
+        font-size: 10px;
+        padding-left: 12px;
+    }
+    .fb_right p{
+        font-size: 10px;
+        padding-top: 3px;
+    }
+    span{
+        font-size: 10px;
+    }
+    
+    
+
+/* hero main part end */
